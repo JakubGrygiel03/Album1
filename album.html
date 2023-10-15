@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album zdjęć</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;/* column */
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-box{
+            margin: 10px;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .image-box:hover {
+            transform: scale(1.07);
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/10/02/04/35/boys-8288460_640.jpg" alt="">
+            <div>Test1</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/10/02/13/27/woman-8289221_640.jpg" alt="">
+            <div>Test2</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/09/17/11/08/dahlias-8258327_640.jpg" alt="">
+            <div>Test3</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/09/29/11/59/iguana-8283668_640.jpg" alt="">
+            <div>Test4</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/09/13/12/59/giraffe-8250955_640.jpg" alt="">
+            <div>Test5</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2023/09/29/17/27/dunlin-8284260_640.jpg" alt="">
+            <div>Test6</div>
+    </div>
+
+    
+</body>
+</html>
